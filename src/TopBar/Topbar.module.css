@@ -1,0 +1,37 @@
+.topbarBg {
+    background-color: #323232;
+    padding: 20px 0px;
+}
+
+.logo {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.topbarContents {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    align-items: center;
+}
+
+.page {
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.buttons {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.image{
+    padding: 0px 3px;
+    width: 30px;
+    height: 30px;
+    
+}
