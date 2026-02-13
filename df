@@ -1,0 +1,42 @@
+[33mcommit cc2f7c3becc1baa8f15e78629258c9f0185ea346[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32msidebar[m[33m)[m
+Author: Diinoue <diinouebr@gmail.com>
+Date:   Thu Feb 12 15:50:46 2026 -0300
+
+    Sidebar scroll, left-right buttons incomplete
+
+[33mcommit 6a17c196dcb8c2721aaf66d2e1e859a8ac31511e[m
+Merge: 61b6cde 3530756
+Author: Diinoue <diinouebr@gmail.com>
+Date:   Tue Feb 3 18:36:07 2026 -0300
+
+    merge main into origin/main
+
+[33mcommit 3530756fdba413becf4cfa99c915265ad725dfbf[m[33m ([m[1;31morigin/master[m[33m, [m[1;32mmaster[m[33m, [m[1;32mmain[m[33m)[m
+Author: Diinoue <diinouebr@gmail.com>
+Date:   Tue Feb 3 03:08:47 2026 -0300
+
+    add topbar css
+
+[33mcommit e381b9442d9c539fa326a7f06e7146cf13c09b6d[m
+Author: Diinoue <diinouebr@gmail.com>
+Date:   Tue Feb 3 03:02:40 2026 -0300
+
+    add topbar component
+
+[33mcommit 61b6cde414b5d8c7e3d99bf34fba9d6af9d765d1[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Diinoue <diinouebr@gmail.com>
+Date:   Tue Feb 3 02:12:34 2026 -0300
+
+    Initial commit
+
+[33mcommit 7b61f06faa88c015d25eda8eba0b734e147101ff[m
+Author: Diinoue <diinouebr@gmail.com>
+Date:   Tue Feb 3 00:06:23 2026 -0300
+
+    First commit with announcement prototype and readme
+
+[33mcommit d6b007f295c380aedc2bd393909b6eb5790b3870[m
+Author: Diinoue <diinouebr@gmail.com>
+Date:   Mon Feb 2 23:43:32 2026 -0300
+
+    First commit with announcement prototype

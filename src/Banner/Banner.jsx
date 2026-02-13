@@ -12,9 +12,9 @@ function Banner () {
 
     let [bannerIndex, setBannerIndex] = useState(0);
 
-    /* let [bannerTitle, setBannerTitle] = useState("");
+    let [bannerTitle, setBannerTitle] = useState("");
     let [bannerDescription, setBannerDescription] = useState("");
-    let [bannerImg, setBannerImg] = useState(""); */
+    let [bannerImg, setBannerImg] = useState("");
     
     /* Variável de estado banners */
     const [banners, setBanners] = useState([
@@ -40,16 +40,14 @@ function Banner () {
     /* useEffect para atualizar o banner com o passar do tempo */
     useEffect(() => {
         setTimeout(() => {
-            /* bannerIndex < 2? setBannerIndex(bannerIndex + 1) : setBannerIndex(0); */
-            // setBannerIndex(bannerIndex + 1); COMENTADO TEMPORARIAMENTE, RETORNAR CASO PRECISO
-            
-
+            bannerIndex < 2? setBannerIndex(bannerIndex + 1) : setBannerIndex(0);        
+             
             setBannerTitle(banners[bannerIndex].title);
             setBannerDescription(banners[bannerIndex].description);
-            setBannerImg(banners[bannerIndex].img);
-            /* console.log(banners[bannerIndex].title); */
+            setBannerImg(banners[bannerIndex].img); 
+             console.log(banners[bannerIndex].title);
             
-            // if (bannerIndex >= 2) setBannerIndex(0);  COMENTADO TEMPORARIAMENTE, RETORNAR CASO PRECISO
+            // if (bannerIndex >= 2) setBannerIndex(0);  // COMENTADO TEMPORARIAMENTE, RETORNAR CASO PRECISO
             console.log(`Banner index mudou: ${bannerIndex}`)
             console.log(`BannerTitle: ${bannerTitle}, BannerDescription: ${bannerDescription}, Bannerimg: ${bannerImg}`);
         }, 5000)        
